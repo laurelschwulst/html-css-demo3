@@ -1,4 +1,4 @@
-# Demo 2 — Text
+# Demo 3 — One Page Site with Multiple Sections
 
 A simple, one-page HTML & CSS site that uses ["skip" or "jump" links](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#skip_links) so that all the content is on one long scrolling page.
 
