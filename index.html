@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>The purpose of a website is to exist! (One Page)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <style>
+      body {
+        background: #260069;
+        color: white;
+        margin: 20px;
+        font-family: serif;
+        text-align: center;
+      }
+
+      a {
+        color: white;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      h1 {
+        font-weight: normal;
+        font-size: 100px;
+        margin: 0;
+        padding: 0.5em 0;
+      }
+
+      h2 {
+        font-weight: normal;
+        font-size: 50px;
+        margin-top: 0;
+        padding-right: 100px;
+      }
+
+      nav#main {
+        font-size: 28px;
+        margin-bottom: 3.5em;
+      }
+
+      section {
+        font-size: 26px;
+        border: 4px solid white;
+        padding: 20px;
+        max-width: 800px;
+        margin: 5em auto;
+        text-align: left;
+        position: relative;
+      }
+
+      section p:last-of-type {
+        margin-bottom: 0;
+      }
+
+      .back-to-top {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 18px;
+      }
+
+      .about {
+        font-size: 18px;
+        margin-bottom: 3.5em;
+        font-style: italic;
+      }
+
+      nav#main a {
+        display: inline-block;
+        padding: 0.75em 1em 0.6em;
+        margin: 0.2em 0.1em;
+        background: white;
+        color: #260069;
+        text-decoration: none;
+      }
+
+      figure {
+        margin: 0;
+      }
+
+      figcaption {
+        font-size: 18px;
+      }
+
+      footer a {
+        text-decoration: none;
+        font-size: 50px;
+        display: inline-block;
+        margin-bottom: 1.5em;
+      }
+
+      @media screen and (max-width: 800px) {
+        h1 {
+          font-size: 50px;
+        }
+        h2 {
+          font-size: 28px;
+        }
+        nav#main {
+          font-size: 20px;
+        }
+        section,
+        .back-to-top,
+        .about,
+        footer a {
+          font-size: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="top">
+      <h1>The purpose of a website is to exist!</h1>
+      <div class="about">
+        These are some tools, organized by
+        <a href="https://laurelschwulst.com">Laurel Schwulst</a> for
+        <a href="http://banweblearning.net">BAN Web Learning</a>.
+      </div>
+
+      <nav id="main">
+        <a href="#intro"> Introduction </a>
+        <a href="#html"> HTML </a>
+        <a href="#css"> CSS </a>
+        <a href="#github"> GitHub </a>
+        <a href="#builders"> Website Builders </a>
+        <a href="#inspo"> ⋱ </a>
+      </nav>
+    </header>
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>
+        There are different ways to build websites. You use different building
+        materials for different purposes.
+      </p>
+      <img
+        src="images/html-css-js2.jpg"
+        alt="HTML, CSS, and JS introduced textually"
+      />
+      <p>
+        In this workshop, I'm going to show you how to use HTML and CSS, which
+        is just one way to build websites. (Feel free to learn JS on your own.)
+      </p>
+      <img
+        src="images/html-css-js3.jpg"
+        alt="HTML, CSS, and JS introduced textually"
+      />
+      <p>
+        What’s cool about HTML & CSS is that these are the building blocks of
+        the web no matter what. You can “view source” on any website and see it
+        boils down to HTML & CSS generally speaking, no matter if you made it in
+        SquareSpace, Wordpress, or any other website builder.
+      </p>
+      <div class="back-to-top">
+        <a href="#top">Back to Top</a>
+      </div>
+    </section>
+
+    <section id="html">
+      <h2>HTML — HyperText Markup Language</h2>
+      <style>
+        .embed-container {
+          position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+          max-width: 100%;
+        }
+        .embed-container iframe,
+        .embed-container object,
+        .embed-container embed {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+      <div class="embed-container">
+        <iframe
+          src="https://www.youtube.com/embed/CkzbI1Tv_rQ"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p>What are the things? What are their structure?</p>
+      <ul>
+        <li>
+          <a href="https://coolguy.website/web-zine/01/" target="_blank"
+            >Web Zine 01 by Zach Mandeville</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
+            target="_blank"
+          >
+            MDN: HTML Basics
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://handmade-web.net/spring22/assets/html.pdf"
+            target="_blank"
+          >
+            <span class="author">HTML Slideshow by Aidan Quinlan</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/presentation/d/1KDDbJaRVJe2kQQ2U_Wwdq7RobrsrbN2UeX9xqKrdLyo/edit?usp=sharing"
+            target="_blank"
+            >HTML Basics Slideshow by Rosa McElheny</a
+          >
+        </li>
+        <li>
+          <a href="http://htmlreference.io" target="_blank">htmlreference.io</a>
+        </li>
+      </ul>
+      <div class="back-to-top">
+        <a href="#top">Back to Top</a>
+      </div>
+    </section>
+
+    <section id="css">
+      <h2>CSS — Cascading Style Sheets</h2>
+      <style>
+        .embed-container {
+          position: relative;
+          padding-bottom: 56.25%;
+          height: 0;
+          overflow: hidden;
+          max-width: 100%;
+        }
+        .embed-container iframe,
+        .embed-container object,
+        .embed-container embed {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+      <div class="embed-container">
+        <iframe
+          src="https://www.youtube.com/embed/BUZIaTHm_oE"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p>How do the things look?</p>
+      <ul>
+        <li>
+          <a href="https://youtu.be/aHUtMbJw8iA" target="_blank">
+            <span class="title">Why is CSS So Weird?</span>
+            <span class="author">by Miriam Suzanne</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"
+            target="_blank"
+          >
+            MDN: CSS Basics
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://handmade-web.net/spring22/assets/css.pdf"
+            target="_blank"
+          >
+            <span class="title">CSS Slideshow</span>
+            <span class="author">by Aidan Quinlan</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://docs.google.com/presentation/d/1Oo9J5CZOHN2JPursXWD4f-oS4DtstcixRWoQO0zFJZs/edit?usp=sharing"
+            target="_blank"
+            >CSS Basics Slideshow by Rosa McElheny</a
+          >
+        </li>
+        <li>
+          <a href="https://cssreference.io" target="_blank">cssreference.io</a>
+        </li>
+        <li>
+          <a href="http://learnlayout.com" target="_blank">learnlayout.com</a>
+        </li>
+      </ul>
+      <div class="back-to-top">
+        <a href="#top">Back to Top</a>
+      </div>
+    </section>
+
+    <section id="github">
+      <h2>GitHub Pages for Hosting</h2>
+      <p>
+        <a
+          href="https://youtu.be/p1QU3kLFPdg?si=aaMdq9Ovec2A7iKb"
+          target="_blank"
+          >Link to Video: " How to put an HTML website online (on the Internet)"
+          by SuperSimpleDev</a
+        ><br />
+        (minutes 1-10 are especially relevant)
+      </p>
+      <p>
+        <a href="https://github.com/">GitHub</a> is a code versioning and
+        storage platform that also provides a free hosting service for static
+        websites under a certain size (1GB) called "GitHub Pages." GitHub will
+        give you a URL to host your website based on your GitHub username and
+        repository, for example: https://myusername.github.io/myrepositoryname.
+      </p>
+      <p>
+        GitHub pages also optionally lets you connect a custom domain name to
+        your repository — and that's how this very website (banweblearning.net)
+        is working!
+      </p>
+      <div class="back-to-top">
+        <a href="#top">Back to Top</a>
+      </div>
+    </section>
+
+    <section id="builders">
+      <h2>Website Builders</h2>
+      <img
+        src="images/builders.jpg"
+        alt="DIY building materials on one side with IKEA on the other, sharing the metaphorical difference between making a website with HTML and CSS (DIY) versus website builders (IKEA)"
+      />
+      <p>
+        Every choice has pros & cons. Every convenience has a trade-off. Choose
+        the method suitable for the project at hand.
+      </p>
+      <ul>
+        <li><a href="https://cargo.site">https://cargo.site</a></li>
+        <li><a href="https://mmm.page">https://mmm.page</a></li>
+        <li><a href="https://squarespace.com">https://squarespace.com</a></li>
+        <li><a href="https://wordpress.com">https://wordpress.com</a></li>
+        <li><a href="https://wix.com">https://wix.com</a></li>
+      </ul>
+      <div class="back-to-top">
+        <a href="#top">Back to Top</a>
+      </div>
+    </section>
+
+    <section id="inspo">
+      <h2>⋱</h2>
+      <figure>
+        <img
+          src="images/steven-holl-architects-website-1996-vision.jpg"
+          alt="A pencil drawing by Steven Holl, architect, with a vision for his minimal website in 1996. The purpose of the website is to exist."
+        />
+      </figure>
+      <figcaption>
+        <i>The main purpose is <u>to exist</u>.</i> <br /><br />Steven Holl
+        Architects (1996) ⋱ Laurel Schwulst
+      </figcaption>
+
+      <p>
+        This website demo was created by Laurel Schwulst and has been inspired
+        by <a href="https://alt-text-as-poetry.net/">Alt Text as Poetry</a>,
+        which Laurel created with Taichi Wi for Finnegan Shannon & Bojana
+        Coklyat previously. See also:
+        <a href="https://websitesite.xyz/dontforgettotakeaselfiewithyourherbs/"
+          >Don't Forget to Take a Selfie with your Herbs</a
+        >
+        by Jisu Lee.
+      </p>
+      <div class="back-to-top">
+        <a href="#top">Back to Top</a>
+      </div>
+    </section>
+
+    <footer>
+      <a href="#top">
+        <!-- ∴ -->
+        ⁂
+      </a>
+    </footer>
+  </body>
+</html>
